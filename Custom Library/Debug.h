@@ -1,7 +1,9 @@
+//----------------------------------------
+//File Name: Debug.h
+//Author: Trent Manks
+//------------------------------------------
+//Copyright 2017 - DarkWolf Interactive
+//------------------------------------------
 #pragma once
-#include <iostream>
 
-
-using namespace std;
-
-#define DEBUG true
+#define DEBUG_MODE true // Global Debug Mode

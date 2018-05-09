@@ -1,3 +1,10 @@
+//----------------------------------------
+//File Name: Deque.h
+//Author: Trent Manks
+//------------------------------------------
+//Copyright 2017 - DarkWolf Interactive
+//------------------------------------------
+
 #pragma once
 #include "MathLibrary.h"
 
