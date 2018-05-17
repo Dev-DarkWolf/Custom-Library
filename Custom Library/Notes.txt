@@ -1,0 +1,126 @@
+------------------------------------------------------
+		 --- Glossery ---
+------------------------------------------------------
+Scalar: Represents A Single Value
+
+Translate: Move Something.
+
+Point: Represents A Location.
+
+Vector: Represents The Direction.
+
+Magnitiude: Represents The Length.
+
+Normalize: Modify A Vector So Its Magnitiude Is 1.
+
+Radians: Represents Degrees
+
+Dot Product: Multiplying Two Vectors(Returns Single Scalar)
+
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Translate A Point ---
+------------------------------------------------------
+We just combine the Point P’s coordinates with the Vector
+V’s coordinates to find a new Point.
+------------------------------------------------------
+P2: New Point - Result
+P1: Old Point 
+V: Vector
+------------------------------------------------------
+P2 = P1 + V
+P2(x,y) = (P1x + Vx, P1y + Vy)
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+     --- Find The Difference Between Points ---
+------------------------------------------------------
+To find the Vector that would translate from P1 to P2 
+we simply subtract P1 from P2.
+------------------------------------------------------
+V: Vector - Result
+P1: First Point
+P2: Second Point
+------------------------------------------------------
+V = P2 - P1
+V(x,y) = (P2x - P1x, P2y - P1y)
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Scaling A Vector---
+------------------------------------------------------
+To do this we can either multiply or divide the Vector 
+by a Scalar value.
+------------------------------------------------------
+V2 = V1/s - Shrink
+------------------------------------------------------
+V2 = s*V1 - Grow
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Vector Addition ---
+------------------------------------------------------
+We can also combine two Vectors together to create a new
+Vector that combines both of the original Vectors’ offsets
+------------------------------------------------------
+V3: New Vector - Result
+V1: First Vector
+V2: Second Vector
+------------------------------------------------------
+V3 = V1 + V2
+V3(x,y) = (V1x + V2x, V1y + V2y)
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Vector Subtraction ---
+------------------------------------------------------
+We can also combine two Vectors together to create a new
+Vector that combines both of the original Vectors’ offsets
+------------------------------------------------------
+V3: New Vector - Result
+V1: First Vector
+V2: Second Vector
+------------------------------------------------------
+V3 = V1 - V2
+V3(x,y) = (V1x - V2x, V1y - V2y)
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Dot Product(2D) ---
+------------------------------------------------------
+The Dot Product is a method for multiplying two Vectors
+together, the result being a single Scalar value.
+------------------------------------------------------
+A(dot)B: Scalar Value - Result
+A: First 2D Vector
+B: Second 2D Vector
+------------------------------------------------------
+A(dot)B = Ax*Bx + Ay*By
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Dot Product(3D) ---
+------------------------------------------------------
+The Dot Product is a method for multiplying two Vectors
+together, the result being a single Scalar value.
+------------------------------------------------------
+A(dot)B: Scalar Value - Result
+A: First 2D Vector
+B: Second 2D Vector
+------------------------------------------------------
+A(dot)B = Ax*Bx + Ay*By + Az*Bz
+------------------------------------------------------
+######################################################
+------------------------------------------------------
+	 	--- Dot Product(3D) ---
+------------------------------------------------------
+The Dot Product is a method for multiplying two Vectors
+together, the result being a single Scalar value.
+------------------------------------------------------
+A(dot)B: Scalar Value - Result
+A: First 2D Vector
+B: Second 2D Vector
+------------------------------------------------------
+A(dot)B = Ax*Bx + Ay*By + Az*Bz
+------------------------------------------------------
