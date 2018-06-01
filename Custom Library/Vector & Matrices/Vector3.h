@@ -15,6 +15,9 @@
 //Copyright 2017 - DarkWolf Interactive
 //------------------------------------------
 
+struct Vector2;
+struct Vector4;
+
 #pragma once
 struct Vector3
 {
@@ -24,15 +27,30 @@ struct Vector3
 	LIBRARY_API Vector3 operator+(Vector3 rhs);
 	LIBRARY_API Vector3 operator-(Vector3 rhs);
 	LIBRARY_API Vector3 operator*(float scalar);
+	LIBRARY_API Vector3 operator/(float scalar);
+
+	LIBRARY_API bool operator!=(Vector3 rhs);
+	LIBRARY_API bool operator==(Vector3 rhs);
 	
 	LIBRARY_API float& operator[](int nIndex);
 	 
-	LIBRARY_API explicit operator float*();
+	LIBRARY_API explicit operator float*(); //Cast To Float
+	LIBRARY_API explicit operator Vector2*(); //Cast To Vector2
+	LIBRARY_API explicit operator Vector4*(); //Cast To Vector4
 	
 	LIBRARY_API float dot(Vector3 rhs);
 	LIBRARY_API Vector3 cross(Vector3 vVector);
 	LIBRARY_API float magnitude();
+	LIBRARY_API float MagnitudeSquared();
 	LIBRARY_API void normalise();
+
+	LIBRARY_API void SetXYZ(float x, float y, float z);
+	LIBRARY_API Vector3 Clamp(float fMinAxis, float fMaxAxis);
+	LIBRARY_API bool ContainsNaN();
+	LIBRARY_API float Distance(Vector3 vVectorToCompare);
+	LIBRARY_API Vector3 RoundToVector();
+	LIBRARY_API Vector3 Swizzle(char* xyzOrder = "xyz");
+
 
 	float x;
 	float y;
